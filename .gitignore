@@ -1,0 +1,5 @@
+.env/
+mascore/settings/deploy.py
+*__pycache__/
+staticfiles/
+media/*
