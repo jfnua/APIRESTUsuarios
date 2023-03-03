@@ -3,3 +3,4 @@ mascore/settings/deploy.py
 *__pycache__/
 staticfiles/
 media/*
+palettaColores.txt

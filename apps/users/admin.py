@@ -5,7 +5,6 @@ from .models import User
 from apps.base.helpers import deleteOldImage, resize
 
 
-# Register your models here.
 @admin.register(User)
 class AdminUser(admin.ModelAdmin):
   readonly_fields = ("is_superuser", "is_staff")

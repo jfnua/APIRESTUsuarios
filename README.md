@@ -39,5 +39,9 @@ $ python manage.py runserver
 ```
 
 The server default run in port 8000
+
+
 Admin site: http://127.0.0.1:8000/admin
-API documentation: http://127.0.0.1:8000/redoc/ or http://127.0.0.1:8000/swagger/
+
+
+API documentation: http://127.0.0.1:8000/redoc/  http://127.0.0.1:8000/swagger/

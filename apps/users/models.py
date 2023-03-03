@@ -45,9 +45,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     verbose_name_plural = "Users"
 
   #USERNMAE_FIELD es la variable que utilizara django para reconocer al usuario en la autentificacion
-  USERNAME_FIELD = "email"
+  USERNAME_FIELD = "username"
   #Una lista de los nombres de campo que se solicitarán al crear un usuario a través del comando de administración createsuperuser
-  REQUIRED_FIELDS =["username","name", "last_name"]
+  REQUIRED_FIELDS =["email","name", "last_name"]
 
   def natural_key(self) -> Tuple[str]:
     return (self.username,)
